@@ -79,10 +79,7 @@ def generate_srt(request):
         with open(audio_file_path, 'wb') as destination:
             for chunk in audio_file.chunks():
                 destination.write(chunk)
-
-
-        # Initialize OpenAI client
-        #client = OpenAI(api_key=api_key)
+  
 
 
         # Transcribe the audio file
