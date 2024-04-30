@@ -82,7 +82,7 @@ def generate_srt(request):
 
 
         # Initialize OpenAI client
-        client = OpenAI(api_key=api_key)
+        #client = OpenAI(api_key=api_key)
 
 
         # Transcribe the audio file
