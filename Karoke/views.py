@@ -53,9 +53,6 @@ def remove_vocals(request):
      
 @api_view(['POST'])
 def generate_srt(request):
-    #api_key = "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" ---Praveen mail id key
-    #api_key = "sk-proj-JeNJFQKVsCAGKsBlyIcPT3BlbkFJLL6Pz7NfzMCLenL6jaCL" #samgiftson mail id key
-
     
     
     # Check if audio file is provided in the request
