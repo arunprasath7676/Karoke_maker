@@ -53,8 +53,7 @@ def remove_vocals(request):
      
 @api_view(['POST'])
 def generate_srt(request):
-    
-    
+       
     # Check if audio file is provided in the request
     if 'audio_file' not in request.FILES:
         return JsonResponse({'error': 'No audio file provided'}, status=400)
